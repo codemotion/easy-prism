@@ -1,6 +1,6 @@
 <?php
 /**
- * Prism Syntax Highlither
+ * Easy Prism Syntax Highlither
  *
  * Highlight programming code with Prism.JS script.
  *
@@ -11,9 +11,9 @@
  * @copyright 12-17-2014 codemotion
  *
  * @wordpress-plugin
- * Plugin Name: Easy Prism Syntax Highlither
+ * Plugin Name: Easy Prism Syntax Highlighter
  * Plugin URI:  http://codemotion.ru
- * Description: Tierd to search for normal, easy to install programming code highlight plugin? This one will help you to end this adventure.
+ * Description: Tired to search for normal, easy to install programming code highlight plugin? This one will help you to end this adventure.
  * Version:     1.0.0
  * Author:      Dmitriy Belyaev
  * Author URI:  http://codemotion.ru

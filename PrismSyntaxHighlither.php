@@ -119,7 +119,7 @@ class PrismSyntaxHighlither{
 	    	$class = "language-markup";
 	    }
 		if(FALSE !== strpos($content,"\n")){
-			$content = trim($content,"\n");
+			$content = trim($content,"\n\r\s");
 			return "<pre class=\"{$class}\"><code class=\"{$class}\">{$content}</code></pre>";
 		}
 		else {
