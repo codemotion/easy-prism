@@ -112,14 +112,19 @@ class PrismSyntaxHighlither{
 	*/
 	public function shortcode($attrs, $content = ""){
 		$class = '';
-	    if(isset($attrs[0])){
+		if(isset($attrs[0])){
 	    	$class = "language-".$attrs[0];
 	    }
 	    else {
 	    	$class = "language-markup";
 	    }
-		$content = trim($content);
-		return "<pre class=\"{$class}\"><code class=\"{$class}\">{$content}</code></pre>";
+		if(FALSE !== strpos($content,"\n")){
+			$content = trim($content);
+			return "<pre class=\"{$class}\"><code class=\"{$class}\">{$content}</code></pre>";
+		}
+		else {
+			return "<code class=\"{$class}\">{$content}</code>";	
+		}
 	}	
 
 
@@ -145,9 +150,7 @@ class PrismSyntaxHighlither{
 
 	public function load(){
 		global $post;
-
-		if(!is_singular()) return;
-
+		// if(!is_singular()) return;
 		$content = $post->post_content;
 		if ( FALSE !== strpos( $content, '[code' ) OR FALSE !== strpos( $content, '<code class="lang' ) ) {
 			wp_enqueue_style('prism');
