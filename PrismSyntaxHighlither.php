@@ -2,7 +2,7 @@
 /**
  * Prism Syntax Highlither
  *
- * @package   prism-syntax-highlither
+ * @package   easy-prism
  * @author    Dmitriy Belyaev <admin@codemotion.ru>
  * @license   GPL-2.0+
  * @link      http://codemotion.ru
@@ -35,7 +35,7 @@ class PrismSyntaxHighlither{
 	 *
 	 * @var      string
 	 */
-	protected $plugin_slug = "wp-prism-hl";
+	protected $plugin_slug = "easy-prism";
 
 	/**
 	 * Instance of this class.
