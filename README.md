@@ -10,15 +10,15 @@ If you want do define highlight syntax language, you may use direct lang param l
 
 Plugin will also highlight `<pre class='language-html'>…</pre>` and `<code class='language-html'></code>`, if you don't want to use shortcode.
 
-== Installation ==
+# Installation
 
 1. Upload `easy-prism` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the "Plugins" menu in WordPress
 3. Use [code][/code] or simple [c][/c] shortcode to display highlighted code.
 
-== Frequently Asked Questions == 
+# Frequently Asked Questions
 
-= How to highlight inline element =
+## How to highlight inline element
 
 It's simple. 
 
@@ -28,18 +28,18 @@ In case you put in one and more linebreaks "\n" – it will be displayed as bloc
 
 
 
-= Can I use this plugin with other syntax highlight? =
+## Can I use this plugin with other syntax highlight?
 You may do what you want, but plugins author doesn't promise that any other syntax highlight plugin will work correctly with the original one.
 
-= Is it possible to add more capatibilites to this plugin? =
+## Is it possible to add more capatibilites to this plugin?
 Of course. Write me to info@wpthy.com with subject "Feature request for Easy Prism Syntax Highlighter plugin" a letter and make request.
 
-== Screenshots ==
+# Screenshots
 
 1. Visual Editor.
 2. Frontend block and inline.
 
-== Changelog ==
+# Changelog 
 
-= 1.0 =
+## 1.0 
 * Initial Commit
