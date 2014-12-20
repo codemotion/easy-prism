@@ -4,7 +4,7 @@
  *
  * Highlight programming code with Prism.JS script.
  *
- * @package   easy-prism
+ * @package   easy-prism-syntax-highlighter
  * @author    Dmitriy Belyaev <admin@codemotion.ru>
  * @license   GPL-2.0+
  * @link      http://codemotion.ru
@@ -14,7 +14,7 @@
  * Plugin Name: Easy Prism Syntax Highlighter
  * Plugin URI:  http://codemotion.ru
  * Description: Tired to search for normal, easy to install programming code highlight plugin? This one will help you to end this adventure.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Dmitriy Belyaev
  * Author URI:  http://codemotion.ru
  * Text Domain: easy-prism-locale

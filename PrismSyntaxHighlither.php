@@ -2,7 +2,7 @@
 /**
  * Prism Syntax Highlither
  *
- * @package   easy-prism
+ * @package   easy-prism-syntax-highlighter
  * @author    Dmitriy Belyaev <admin@codemotion.ru>
  * @license   GPL-2.0+
  * @link      http://codemotion.ru
@@ -23,7 +23,7 @@ class PrismSyntaxHighlither{
 	 *
 	 * @var     string
 	 */
-	protected $version = "1.0.0";
+	protected $version = "1.0.1";
 
 	/**
 	 * Unique identifier for your plugin.
@@ -35,7 +35,7 @@ class PrismSyntaxHighlither{
 	 *
 	 * @var      string
 	 */
-	protected $plugin_slug = "easy-prism";
+	protected $plugin_slug = "easy-prism-syntax-highlighter";
 
 	/**
 	 * Instance of this class.
@@ -119,7 +119,7 @@ class PrismSyntaxHighlither{
 	    	$class = "language-markup";
 	    }
 		if(FALSE !== strpos($content,"\n")){
-			$content = trim($content,"\n\r\s");
+			$content = trim($content,"\n\r");
 			return "<pre class=\"{$class}\"><code class=\"{$class}\">{$content}</code></pre>";
 		}
 		else {

@@ -40,6 +40,7 @@ Of course. Write me to info@wpthy.com with subject "Feature request for Easy Pri
 2. Frontend block and inline.
 
 # Changelog 
-
+## 1.0.1 
+Nightly bugfixes. Respond for plugin user feedback.
 ## 1.0 
 * Initial Commit

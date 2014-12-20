@@ -1,5 +1,5 @@
 === Easy Prism Syntax Highlighter ===
-Contributors: Cuamckuy, codemotion, WPTHY
+Contributors: Cuamckuy
 Donate link: http://wpthy.com
 Tags: code, highlight, syntax, prism
 Requires at least: 3.5.1
@@ -53,5 +53,12 @@ Of course. Write me to info@wpthy.com with subject "Feature request for Easy Pri
 
 == Changelog ==
 
+= 1.0.1 =
+Nightly bugfixes. Respond for plugin user feedback.
 = 1.0 =
 * Initial Commit
+
+== Upgrade Notice ==
+
+= 1.0.1 =
+Small bugfixes. Please, write me to info@wpthy.com if you'll find some bugs.
